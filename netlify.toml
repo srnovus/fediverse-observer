@@ -5,6 +5,9 @@
 [build.environment]
   NEXT_PUBLIC_API_URL = "https://fediverse-observer.netlify.app/.netlify/functions"
 
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
